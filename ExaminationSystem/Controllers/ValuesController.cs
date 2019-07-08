@@ -20,6 +20,10 @@ namespace ExaminationSystem.Controllers
         {
             return "value";
         }
+        public string Post(int id)
+        {
+            return "value";
+        }
 
         // POST api/values
         public void Post([FromBody]string value)
